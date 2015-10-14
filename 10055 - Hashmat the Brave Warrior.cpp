@@ -1,5 +1,8 @@
-#include<stdio.h>
-#include<stdlib.h>
+#include <iostream>
+#include <cstdio>
+#include <cstdlib>
+
+using namespace std;
 
 int main(void)
 {
@@ -12,5 +15,6 @@ int main(void)
         else
             printf("%lld\n",b-a);
     }
+    
     return 0;
 }

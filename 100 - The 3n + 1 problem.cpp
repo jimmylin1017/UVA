@@ -1,6 +1,7 @@
 #include <iostream>
 #include <cstdio>
 #include <cstdlib>
+
 using namespace std;
 
 int main(void)
@@ -33,4 +34,6 @@ int main(void)
         }
         cout<<" "<<max+1<<endl;
     }
+
+    return 0;
 }

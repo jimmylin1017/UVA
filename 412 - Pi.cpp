@@ -1,6 +1,6 @@
 #include <iostream>
-#include <stdio.h>
-#include <stdlib.h>
+#include <cstdio>
+#include <cstdlib>
 #include <cmath>
 #define MAX 50
 using namespace std;
@@ -56,4 +56,6 @@ int main(void)
             printf("%.6lf\n",ans);
         }
     }
+
+    return 0;
 }

@@ -1,7 +1,8 @@
 #include <iostream>
-#include<stdio.h>
-#include <stdlib.h>
+#include <cstdio>
+#include <cstdlib>
 #include <algorithm>
+
 using namespace std;
 
 int main(void)
@@ -22,6 +23,7 @@ int main(void)
         for(int i=0;i<r;i++)
             d+=abs(s[r/2] - s[i]);
         cout<<d<<endl;
-
     }
+
+    return 0;
 }

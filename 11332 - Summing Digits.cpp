@@ -29,5 +29,5 @@ int main(void)
         printf("%d\n",summing(n));
     }
 
-
+    return 0;
 }

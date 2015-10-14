@@ -1,9 +1,8 @@
 #include <iostream>
-#include<stdio.h>
-#include <stdlib.h>
-#include <algorithm>
+#include <cstdio>
+#include <cstdlib>
 #include <cmath>
-#include <string>
+
 using namespace std;
 
 int change(string s)
@@ -45,4 +44,5 @@ int main(void)
             cout<<"All you need is love!"<<endl;
     }
 
+    return 0;
 }

@@ -27,6 +27,7 @@ int main(void)
             printf("Case %d: %d\n",c,two(n));
             c++;
         }
-
     }
+
+    return 0;
 }

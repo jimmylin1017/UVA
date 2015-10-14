@@ -21,4 +21,6 @@ int main(void)
         else
             break;
     }
+
+    return 0;
 }

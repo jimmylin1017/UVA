@@ -1,7 +1,7 @@
 #include <iostream>
-#include<stdio.h>
-#include <stdlib.h>
-#include <algorithm>
+#include <cstdio>
+#include <cstdlib>
+
 using namespace std;
 
 int main(void)
@@ -19,6 +19,5 @@ int main(void)
         }
     }
 
-
-
+    return 0;
 }

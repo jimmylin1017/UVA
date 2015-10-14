@@ -1,8 +1,8 @@
 #include <iostream>
-#include<stdio.h>
-#include <stdlib.h>
-#include <algorithm>
+#include <cstdio>
+#include <cstdlib>
 #include <string>
+
 using namespace std;
 
 
@@ -37,5 +37,5 @@ int main(void)
         change(n);
     }
 
-
+    return 0;
 }

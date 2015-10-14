@@ -1,8 +1,8 @@
 #include <iostream>
-#include<stdio.h>
-#include <stdlib.h>
-#include <algorithm>
+#include <cstdio>
+#include <cstdlib>
 #include <cmath>
+
 using namespace std;
 
 // r = 2*¤T¨¤­±¿n/©Pªø
@@ -18,4 +18,6 @@ int main(void)
         printf("The radius of the round table is: %.3f\n",r);
 
     }
+
+    return 0;
 }

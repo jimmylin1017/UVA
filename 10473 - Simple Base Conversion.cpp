@@ -1,10 +1,10 @@
 #include <iostream>
-#include<stdio.h>
-#include <stdlib.h>
-#include <algorithm>
+#include <cstdio>
+#include <cstdlib>
 #include <string>
 #include <sstream>
 #include <cmath>
+
 using namespace std;
 
 char change(int c)
@@ -66,4 +66,6 @@ int main(void)
         else
             cout<<dec(s)<<endl;
     }
+
+    return 0;
 }

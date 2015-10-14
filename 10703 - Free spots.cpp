@@ -1,7 +1,7 @@
 #include <iostream>
-#include<stdio.h>
-#include <stdlib.h>
-#include <algorithm>
+#include <cstdio>
+#include <cstdlib>
+
 using namespace std;
 
 void swap(int *a,int *b)
@@ -70,6 +70,6 @@ int main(void)
             cout<<"There are "<<count<<" empty spots."<<endl;
         }
     }
-    return 0;
 
+    return 0;
 }

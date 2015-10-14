@@ -1,7 +1,7 @@
 #include <iostream>
-#include<stdio.h>
-#include <stdlib.h>
-#include <algorithm>
+#include <cstdio>
+#include <cstdlib>
+
 using namespace std;
 
 int dec(int n)
@@ -46,5 +46,5 @@ int main(void)
         cout<<dec(n)<<" "<<hex(n)<<endl;
     }
 
-
+    return 0;
 }

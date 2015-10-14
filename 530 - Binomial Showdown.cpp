@@ -1,7 +1,7 @@
 #include <iostream>
-#include<stdio.h>
-#include <stdlib.h>
-#include <algorithm>
+#include <cstdio>
+#include <cstdlib>
+
 using namespace std;
 
 long long int sum(int a,int b)
@@ -28,4 +28,6 @@ int main(void)
         ans = sum(a,b);
         cout<<ans<<endl;
     }
+
+    return 0;
 }

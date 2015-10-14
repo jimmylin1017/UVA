@@ -1,8 +1,8 @@
 #include <iostream>
-#include<stdio.h>
-#include <stdlib.h>
-#include <algorithm>
+#include <cstdio>
+#include <cstdlib>
 #include <cmath>
+
 using namespace std;
 
 //三角形面積 = a*b*c/(4R)   R:外接圓半徑
@@ -22,4 +22,5 @@ int main(void)
         printf("%.2lf\n",ans);
     }
 
+    return 0;
 }

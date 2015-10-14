@@ -1,6 +1,10 @@
-#include<stdio.h>
-#include<stdlib.h>
-#include<math.h>
+#include <iostream>
+#include <cstdio>
+#include <cstdlib>
+#include <cmath>
+
+using namespace std;
+
 #define PI 3.14159265
 
 int main(void)

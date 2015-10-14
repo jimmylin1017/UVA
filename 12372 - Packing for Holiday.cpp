@@ -1,7 +1,7 @@
 #include <iostream>
-#include<stdio.h>
-#include <stdlib.h>
-#include <algorithm>
+#include <cstdio>
+#include <cstdlib>
+
 using namespace std;
 
 int cl(int l)
@@ -47,4 +47,6 @@ int main(void)
         else
             printf("Case %d: bad\n",i+1);
     }
+
+    return 0;
 }
