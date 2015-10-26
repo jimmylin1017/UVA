@@ -24,6 +24,5 @@ int main()
 		cout<<day[count]<<endl;
 	}
 
-
 	return 0;
 }

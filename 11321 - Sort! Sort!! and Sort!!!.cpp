@@ -1,8 +1,8 @@
 #include <iostream>
-#include <stdio.h>
-#include <stdlib.h>
+#include <cstdio>
+#include <cstdlib>
 #include <algorithm>
-#include <cmath>
+
 using namespace std;
 
 typedef struct node
@@ -48,4 +48,6 @@ int main(void)
             cout<<mynode[i].num<<endl;
         }
     }
+
+    return 0;
 }

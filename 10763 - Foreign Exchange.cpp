@@ -1,8 +1,8 @@
 #include <iostream>
-#include <stdio.h>
-#include <stdlib.h>
+#include <cstdio>
+#include <cstdlib>
 #include <algorithm>
-#include <cmath>
+
 using namespace std;
 
 int num1[500000];
@@ -33,4 +33,6 @@ int main(void)
         }
         judge ? cout<<"YES"<<endl : cout<<"NO"<<endl;
     }
+
+    return 0;
 }

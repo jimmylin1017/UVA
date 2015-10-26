@@ -1,8 +1,7 @@
 #include <iostream>
-#include<stdio.h>
-#include <stdlib.h>
-#include <algorithm>
-#include <cmath>
+#include <cstdio>
+#include <cstdlib>
+
 using namespace std;
 
 
@@ -16,7 +15,6 @@ int main(void)
         string s,ss;
         getline(cin,s,'\n');
         getline(cin,ss,'\n');
-        //cout<<s<<endl<<ss<<endl;
 
         if(s == ss)
             printf("Case %d: Yes\n",c++);
@@ -36,6 +34,7 @@ int main(void)
         }
         else
             printf("Case %d: Wrong Answer\n",c++);
-
     }
+
+    return 0;
 }

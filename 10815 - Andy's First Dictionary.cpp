@@ -1,11 +1,10 @@
 #include <iostream>
-#include <stdio.h>
-#include <stdlib.h>
-#include <algorithm>
+#include <cstdio>
+#include <cstdlib>
 #include <map>
 #include <string>
 #include <sstream>
-#include <cmath>
+
 using namespace std;
 
 
@@ -36,4 +35,6 @@ int main(void)
     {
         cout<<it->first<<endl;
     }
+
+    return 0;
 }

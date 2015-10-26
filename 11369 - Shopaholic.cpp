@@ -1,8 +1,8 @@
 #include <iostream>
-#include <stdio.h>
-#include <stdlib.h>
+#include <cstdio>
+#include <cstdlib>
 #include <algorithm>
-#include <cmath>
+
 using namespace std;
 
 
@@ -27,4 +27,6 @@ int main(void)
         }
         cout<<sum<<endl;
     }
+
+    return 0;
 }

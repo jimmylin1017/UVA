@@ -1,10 +1,9 @@
 #include <iostream>
-#include <stdio.h>
-#include <stdlib.h>
+#include <cstdio>
+#include <cstdlib>
 #include <map>
 #include <iomanip>
-#include <algorithm>
-#include <cmath>
+
 using namespace std;
 
 
@@ -44,4 +43,6 @@ int main(void)
         if(i+1 != input)
             cout<<endl;
     }
+
+    return 0;
 }

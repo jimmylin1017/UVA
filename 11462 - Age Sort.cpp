@@ -1,8 +1,8 @@
 #include <iostream>
-#include <stdio.h>
-#include <stdlib.h>
+#include <cstdio>
+#include <cstdlib>
 #include <algorithm>
-#include <cmath>
+
 using namespace std;
 
 int num[2000000];
@@ -25,4 +25,6 @@ int main(void)
         }
         cout<<endl;
     }
+
+    return 0;
 }

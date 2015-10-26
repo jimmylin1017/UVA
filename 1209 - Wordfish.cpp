@@ -1,9 +1,9 @@
 #include <iostream>
-#include <stdio.h>
-#include <stdlib.h>
+#include <cstdio>
+#include <cstdlib>
 #include <cstring>
 #include <algorithm>
-#include <cmath>
+
 using namespace std;
 
 char s[50];
@@ -48,4 +48,6 @@ int main(void)
         }
         printf("%s%d\n",all[Find],Max);
     }
+
+    return 0;
 }

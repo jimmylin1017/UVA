@@ -1,10 +1,11 @@
 #include <iostream>
-#include <stdio.h>
-#include <stdlib.h>
+#include <cstdio>
+#include <cstdlib>
 #include <algorithm>
 #include <list>
 #include <cstring>
 #include <cmath>
+
 using namespace std;
 
 char s[100000];

@@ -1,8 +1,8 @@
 #include <iostream>
-#include <stdio.h>
-#include <stdlib.h>
+#include <cstdio>
+#include <cstdlib>
 #include <algorithm>
-#include <cmath>
+
 using namespace std;
 
 typedef struct node
@@ -49,4 +49,6 @@ int main(void)
         if(i+1 != M)
             cout<<endl;
     }
+
+    return 0;
 }

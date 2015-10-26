@@ -1,5 +1,6 @@
-#include<iostream>
-#include<cstdio>
+#include <iostream>
+#include <cstdio>
+
 using namespace std;
 
 int main(void)
@@ -24,4 +25,6 @@ int main(void)
         kase++;
         cout<<"Case "<<kase<<": "<<count<<endl;
     }
+
+    return 0;
 }

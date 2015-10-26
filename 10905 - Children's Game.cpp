@@ -1,8 +1,8 @@
 #include <iostream>
-#include <stdio.h>
-#include <stdlib.h>
+#include <cstdio>
+#include <cstdlib>
 #include <algorithm>
-#include <cmath>
+
 using namespace std;
 
 bool cmp(string a,string b)
@@ -27,5 +27,7 @@ int main(void)
         }
         cout<<endl;
     }
+
+    return 0;
 
 }

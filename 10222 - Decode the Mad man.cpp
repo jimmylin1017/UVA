@@ -1,8 +1,7 @@
 #include <iostream>
-#include<stdio.h>
-#include <stdlib.h>
-#include <algorithm>
-#include <cmath>
+#include <cstdio>
+#include <cstdlib>
+
 using namespace std;
 
 
@@ -28,4 +27,6 @@ int main(void)
         }
     }
     cout<<endl;
+
+    return 0;
 }

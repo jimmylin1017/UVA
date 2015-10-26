@@ -1,10 +1,9 @@
 #include <iostream>
-#include <stdio.h>
-#include <stdlib.h>
+#include <cstdio>
+#include <cstdlib>
 #include <cstring>
 #include <stack>
-#include <algorithm>
-#include <cmath>
+
 using namespace std;
 
 bool l(char c) {

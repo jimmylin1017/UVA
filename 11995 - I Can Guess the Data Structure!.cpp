@@ -1,10 +1,9 @@
 #include <iostream>
-#include <stdio.h>
-#include <stdlib.h>
+#include <cstdio>
+#include <cstdlib>
 #include <queue>
 #include <stack>
-#include <algorithm>
-#include <cmath>
+
 using namespace std;
 
 
@@ -69,4 +68,6 @@ int main(void)
         else
             printf("impossible\n");
     }
+
+    return 0;
 }

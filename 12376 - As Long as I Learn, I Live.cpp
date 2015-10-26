@@ -1,6 +1,8 @@
 #include <iostream>
 #include <vector>
+
 using namespace std;
+
 vector<int> node[110];
 
 int main(void)
@@ -41,4 +43,6 @@ int main(void)
         cout<<"Case "<<i<<": ";
         cout<<sum<<" "<<loc<<endl;
     }
+
+    return 0;
 }

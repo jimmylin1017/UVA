@@ -1,9 +1,9 @@
 #include <iostream>
-#include <stdio.h>
-#include <stdlib.h>
+#include <cstdio>
+#include <cstdlib>
 #include <cstring>
 #include <algorithm>
-#include <cmath>
+
 using namespace std;
 
 
@@ -27,4 +27,6 @@ int main(void)
         else
             printf("No Successor\n");
     }
+
+    return 0;
 }

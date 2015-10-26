@@ -1,11 +1,10 @@
 #include <iostream>
-#include <stdio.h>
-#include <stdlib.h>
+#include <cstdio>
+#include <cstdlib>
 #include <map>
 #include <string>
 #include <sstream>
-#include <algorithm>
-#include <cmath>
+
 using namespace std;
 
 
@@ -30,4 +29,6 @@ int main(void)
     }
     for(it = index.begin();it!=index.end();it++)
         cout<<it->first<<" "<<it->second<<endl;
+
+    return 0;
 }

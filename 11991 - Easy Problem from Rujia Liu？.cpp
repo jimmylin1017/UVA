@@ -1,9 +1,8 @@
 #include <iostream>
-#include <stdio.h>
-#include <stdlib.h>
+#include <cstdio>
+#include <cstdlib>
 #include <vector>
-#include <algorithm>
-#include <cmath>
+
 using namespace std;
 
 vector<int> vec[1000001];
@@ -32,4 +31,6 @@ int main(void)
         for(int i=0; i<1000001; i++)
             vec[i].clear();
     }
+
+    return 0;
 }

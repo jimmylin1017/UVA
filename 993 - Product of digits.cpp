@@ -1,9 +1,8 @@
 #include <iostream>
-#include <stdio.h>
-#include <stdlib.h>
+#include <cstdio>
+#include <cstdlib>
 #include <vector>
-#include <algorithm>
-#include <cmath>
+
 using namespace std;
 
 
@@ -43,4 +42,5 @@ int main(void)
             cout<<q<<endl;
     }
 
+    return 0;
 }

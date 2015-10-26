@@ -1,12 +1,12 @@
 #include <iostream>
-#include<stdio.h>
-#include <stdlib.h>
-#include <algorithm>
-#include <cmath>
+#include <cstdio>
+#include <cstdlib>
+
 using namespace std;
 #define MAX_N 100
 #define MAX_M 100
 #define MINE -100
+
 int main(){
   int n, m, field_num = 0;
   char square;
